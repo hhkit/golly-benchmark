@@ -1,0 +1,16 @@
+- file: arrayfire-d7abcf23458e/src/backend/cuda/homography.cu
+  includes:
+  - arrayfire/include
+  - arrayfire/src
+  - arrayfire/src/api/c
+  - arrayfire/src/backend
+  - arrayfire/src/backend/cuda
+  error: race
+- file: arrayfire-a515b112076/src/backend/cuda/scan.cu
+  includes:
+  - arrayfire/include
+  - arrayfire/src
+  - arrayfire/src/api/c
+  - arrayfire/src/backend
+  - arrayfire/src/backend/cuda
+  error: race

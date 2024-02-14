@@ -1,0 +1,1 @@
+__global__ void nothing(int *arr) { *arr = 0; }
